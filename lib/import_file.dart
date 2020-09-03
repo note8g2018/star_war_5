@@ -49,7 +49,6 @@ export 'package:path_provider/path_provider.dart';
 export 'package:email_validator/email_validator.dart';
 export 'package:google_fonts/google_fonts.dart';
 export 'package:image_picker/image_picker.dart';
-export 'package:image_cropper/image_cropper.dart';
 export 'package:font_awesome_flutter/font_awesome_flutter.dart';
 export 'package:dio/dio.dart' hide VoidCallback, Response, MultipartFile;
 export 'package:mongo_dart/mongo_dart.dart' hide State, Accumulator, Size,

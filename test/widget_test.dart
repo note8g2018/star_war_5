@@ -7,9 +7,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:star_war_5/MyApp_screen.dart';
-
-//import 'package:star_war_5/main.dart';
+import 'package:articles/MyApp_screen.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

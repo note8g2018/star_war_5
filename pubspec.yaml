@@ -1,5 +1,5 @@
-name: star_war_5
-description: me
+name: articles
+description: Articles
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -15,7 +15,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 1.0.0+1
+version: 1.0.0
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -31,7 +31,6 @@ dependencies:
   google_fonts:
   font_awesome_flutter:
   image_picker:
-  image_cropper:
   mongo_dart:
   dio:
   email_validator:
@@ -76,9 +75,6 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Starjedi
-      fonts:
-        - asset: fonts/starjedi/Starjedi.ttf
     - family: SWCrawlBody
       fonts:
         - asset: fonts/SWCrawlBody.ttf

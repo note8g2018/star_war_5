@@ -24,14 +24,9 @@ class _MenuState extends State<Menu> {
   void _getImage() async
   {
     PickedFile _pickedFile = await _picker.getImage(source: ImageSource.camera);
-    File _croppedFileImage = await ImageCropper.cropImage(
-      sourcePath: _pickedFile.path,
-      cropStyle: CropStyle.circle,
-      aspectRatio: CropAspectRatio(ratioX: 1.0, ratioY: 1.0,)
-    );
 
     setState(() {
-      _imageFile = _croppedFileImage;
+      _imageFile = File(_pickedFile.path);
     });
   }
 
